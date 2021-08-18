@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "798044886032",
+    "firebase_url": "https://final-year-project-d4c31.firebaseio.com",
+    "project_id": "final-year-project-d4c31",
+    "storage_bucket": "final-year-project-d4c31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798044886032:android:6e03c9ddbd97c4ffe36695",
+        "android_client_info": {
+          "package_name": "com.crown.smartparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798044886032-mlo0oshtqllj0jvgtjsrhanb8pcfm7ap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crown.smartparking",
+            "certificate_hash": "4c3529a965dc6b4de64b4503ff2e89dc3b15f280"
+          }
+        },
+        {
+          "client_id": "798044886032-hmrgl0iqkajt4gug9m2ot6jsnlu808pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWojUs9Pldj2S1uLfttO4rEnNhheY5z5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798044886032-hmrgl0iqkajt4gug9m2ot6jsnlu808pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

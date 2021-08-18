@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="Material" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/grey_5</item>
+        <item name="colorPrimaryDark">@color/grey_5</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+
+    <style name="Material.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Material.NoActionBar.GreyStatusBar">
+        <item name="android:statusBarColor">@color/grey_5</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowBackground">@color/grey_5</item>
+    </style>
+
+    <style name="LoadingDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="NoActionBarDialog" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

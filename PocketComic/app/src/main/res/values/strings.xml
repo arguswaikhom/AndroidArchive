@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Pocket Comic</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="title_comics">
+        <item>Archive Comics</item>
+        <item>DC Kids</item>
+        <item>comiXology</item>
+        <item>Comic Book Plus</item>
+        <item>Comicblitz</item>
+        <item>Newsarama</item>
+        <item>ElfQuest</item>
+        <item>ReadComicBooksOnline</item>
+        <item>MangaRock</item>
+        <item>MangaFreak</item>
+        <item>ReadComicOnline</item>
+    </string-array>
+
+    <string-array name="link_comics">
+        <item>https://archive.org/details/comics</item>
+        <item>https://www.dckids.com/en-in/comics</item>
+        <item>https://www.comixology.eu/Free-Comics/page/175</item>
+        <item>http://comicbookplus.com/</item>
+        <item>https://www.comicblitz.com/catalog</item>
+        <item>https://www.newsarama.com/comics</item>
+        <item>http://elfquest.com/read/digitalEQ.html</item>
+        <item>https://readcomicbooksonline.org/</item>
+        <item>https://mangarock.com/</item>
+        <item>http://www8.mangafreak.net/</item>
+        <item>https://readcomiconline.to/ComicList</item>
+    </string-array>
+
+</resources>

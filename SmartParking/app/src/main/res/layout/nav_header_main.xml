@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_5"
+    android:fitsSystemWindows="true"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_perm_identity_black_24dp"
+            android:tint="@color/secondary" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_nhm_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/secondary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="@string/nav_header_title" />
+
+</LinearLayout>

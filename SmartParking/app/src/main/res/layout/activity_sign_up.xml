@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/pbar_asu_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:context=".page.SignUpActivity"
+        tools:ignore="HardcodedText">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:letterSpacing="0.1"
+            android:text="Username"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_asu_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"
+            android:textCursorDrawable="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:letterSpacing="0.1"
+            android:text="Password"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_asu_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"
+            android:textCursorDrawable="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:letterSpacing="0.1"
+            android:text="Confirm password"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_asu_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"
+            android:textCursorDrawable="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:letterSpacing="0.1"
+            android:text="Licence no."
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_asu_licence_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"
+            android:textCursorDrawable="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/btn_asu_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="64dp"
+            android:paddingStart="36dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="36dp"
+            android:paddingBottom="16dp"
+            android:text="Sign up"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
